@@ -24,17 +24,43 @@ header{
     width: 1440px;
     height: 551px;
     top: 43px;
-    margin-top:0px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
 
+    width: 1440px;
+    height: 439px;
+
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+
+    width: 1248px;
+    height: 95px;
+
+}
+
+.pages{
+    display: flex;
+    width: 335.016px;
+    height: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    
+}
 
 /* TYPOGRAPHY */
 
 h1{
     min-height: 219px;
     padding-left: 96px;  
-    padding-top: 126px;
+    margin-top: 100px;
     letter-spacing: 2.56px;
     font-size: 64px;
     font-weight: 400;
@@ -95,22 +121,24 @@ p{
 
 nav{
    
-    float: right;
-    margin-top: 18.5px;
-    margin-right: 92px;
-    
-    padding: 6px;
-    text-align: right;
+    width: 1440px;
+    height: 76px;
 
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+}
+
+nav div{
+    margin-right: 92px;
+
+    width: 288px;
+    height: 39px;
+
+    display: flex;
     justify-content: space-around;
 }
 nav a{
-    
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
-
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -179,14 +207,15 @@ nav a{
 /* Услуги и клиенты */
 
 .services-and-selected-clients{
-    gap: 199px;
-    flex: 400px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
 
 }
 
 .services , .clients{
-    /* width: 460px;
-    height: 390px; */
+    width: 460px;
+    height: 390px;
     display: flex;
     flex-flow: column;
 }
