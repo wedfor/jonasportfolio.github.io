@@ -1,0 +1,233 @@
+
+
+/* GENERAL STYLES */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 49, 49);
+  }
+
+
+body {
+    width: 1440px;
+    height: 7535px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+
+
+/* HEADER AND FOOTER */
+
+header{
+    width: 1440px;
+    height: 551px;
+    top: 43px;
+}
+
+
+
+/* TYPOGRAPHY */
+
+h1{
+    min-height: 219px;
+    padding-left: 96px;  
+    padding-top: 126px;
+    letter-spacing: 2.56px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73px;
+}
+
+h2{
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.6px; /* 138.667% */
+    letter-spacing: 0.64px;
+}
+
+h4{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.54px;
+    text-align: left;
+}
+
+p{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 150% */
+    letter-spacing: 0.28px;
+
+}
+
+/* COLORS AND UTILITIES*/
+
+.colorgray{
+    color: gray
+}
+
+.marginleft96{
+    margin-left: 96px;
+}
+
+.box2column{
+    display: inline-flex;
+    height: 778px;
+    justify-content: space-between;
+    /* align-items: flex-start;  */
+    flex-shrink: 0;
+    margin: 128px 96px 0px 96px;
+    
+}
+
+
+
+/* NAVIGATION */
+
+nav{
+   
+    float: right;
+    margin-top: 18.5px;
+    margin-right: 92px;
+    
+    padding: 6px;
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.18px;
+}
+
+
+
+/* ||MAIN */
+
+/* Раздел с примерами работ */
+ .featured-work{
+ 
+    display: flex;
+    flex-flow: column wrap;
+    width: 1248px;
+    height: 1863px;
+    margin-left: 96px;
+    justify-content: space-around;
+}
+
+/* Общие настройки карточек */
+.featured-work .cards-works{
+    border-radius: 16px;
+    /* border:1px solid rgb(71, 34, 206); */
+    max-width: 612px;
+    background-color: rgba(235, 235, 235, 50%);
+    
+}
+
+.work-caption h4{
+    margin-left: 24px;   
+    line-height: 26px;
+    letter-spacing: 0.6px;
+
+}
+
+/* Раздел About me */
+.about-me{
+    gap: 517px;
+}
+
+.about-me h2{
+    width: 143px;
+    white-space: nowrap;
+}
+
+
+/* Фото */
+
+.my-photo{
+    margin-top: 264px;
+}
+
+/* Опыт работы */
+
+.experience{
+    width: 1248px;
+    height: 512px;
+}
+
+.company{
+    width: 588px;
+}
+
+/* Услуги и клиенты */
+
+.services-and-selected-clients{
+    gap: 199px;
+    flex: 400px;
+
+}
+
+.services , .clients{
+    /* width: 460px;
+    height: 390px; */
+    display: flex;
+    flex-flow: column;
+}
+
+.services h4, .clients h4{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+/* Почта */
+
+.mail-rectangle{
+    width: 1248px;
+    height: 591px;
+    
+    border-radius: 20px;
+    background: #FFEBD8;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mail-caption{
+    text-align: center;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.6px; /* 129.123% */
+    letter-spacing: 2.56px;
+    
+}
+
+.mail-link:link{
+    color: #000000;
+    text-align: center;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 140.541% */
+    letter-spacing: 1.2px;
+    
+}
