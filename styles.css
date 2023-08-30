@@ -13,6 +13,7 @@ body {
     height: 6900px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
+ 
   }
 
 
@@ -29,7 +30,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 128px;
+    margin: 128px auto;
 
     width: 1440px;
     height: 439px;
@@ -50,11 +51,12 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 65px;
+    flex-wrap: wrap;
 }
 
 .powered a{
     min-width: fit-content;
-    
+    font-size: 14px;
 }
 
 .pages,
