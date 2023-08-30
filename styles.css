@@ -13,7 +13,6 @@ body {
     height: 6900px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    position: relative;
   }
 
 
@@ -30,8 +29,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-    margin: 128px  0 auto;
+    margin: 128px;
 
     width: 1440px;
     height: 439px;
@@ -89,7 +87,7 @@ h2{
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 41.6px; /* 138.667% */
+    line-height: 41.6px; 
     letter-spacing: 0.64px;
 }
 
@@ -107,7 +105,7 @@ p{
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 42px; /* 150% */
+    line-height: 42px; 
     letter-spacing: 0.28px;
 
 }
@@ -137,10 +135,8 @@ a{
     display: inline-flex;
     height: 778px;
     justify-content: space-between;
-    /* align-items: flex-start;  */
     flex-shrink: 0;
     margin: 128px 96px 0px 96px;
-    
 }
 
 
@@ -148,10 +144,8 @@ a{
 /* NAVIGATION */
 
 nav{
-   
     width: 1440px;
     height: 76px;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -159,14 +153,11 @@ nav{
 
 nav div{
     margin-right: 92px;
-
     width: 288px;
     height: 39px;
-
     display: flex;
     justify-content: space-around;
 }
-
 
 
 
@@ -186,7 +177,6 @@ nav div{
 /* Общие настройки карточек */
 .featured-work .cards-works{
     border-radius: 16px;
-    /* border:1px solid rgb(71, 34, 206); */
     max-width: 612px;
     background-color: rgba(235, 235, 235, 50%);
     
@@ -269,7 +259,7 @@ nav div{
     font-size: 57px;
     font-style: normal;
     font-weight: 400;
-    line-height: 73.6px; /* 129.123% */
+    line-height: 73.6px; 
     letter-spacing: 2.56px;
     
 }
@@ -280,7 +270,7 @@ nav div{
     font-size: 37px;
     font-style: normal;
     font-weight: 400;
-    line-height: 52px; /* 140.541% */
+    line-height: 52px; 
     letter-spacing: 1.2px;
     
 }
